@@ -41,12 +41,14 @@
     "versionPublish": "4.12.0",
     "imageResize": true,
     "favicon": false,
-    "robotsSwitcher": false,
-    "sitemapSwitcher": false,
-    "sitemapSwitcherAuto": false,
+    "robotsSwitcher": true,
+    "sitemapSwitcher": true,
+    "sitemapSwitcherAuto": "on",
     "siteUrl": false,
     "cookiesAlert": false,
-    "gdpr": false
+    "gdpr": false,
+    "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-158270983-1\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-158270983-1');\n</script>\n",
+    "robotsText": "User-agent: *\nDisallow: /cgi-bin\n"
   },
   "pages": {
     "index.html": {
